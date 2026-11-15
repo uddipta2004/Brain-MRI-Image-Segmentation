@@ -1,0 +1,13 @@
+# Brain MRI Image Preprocessing & Segmentation
+
+A computer vision pipeline developed during my **Healthcare Informatics Summer Internship at Gauhati University** to preprocess color Brain MRI scans and segment anatomical regions from background noise using Python and OpenCV.
+
+## Key Features
+- **Image Acquisition:** Loading and rendering color medical MRI scans in Google Colab.
+- **Color Space Transformation:** Converting BGR/RGB Brain MRI images into single-channel grayscale representations (`cv2.COLOR_BGR2GRAY`) for intensity analysis.
+- **Binary Thresholding & Segmentation:** Applying inverse binary thresholding (`cv2.THRESH_BINARY_INV`) to generate binary masks and isolate brain structures from background artifacts.
+
+## Tech Stack
+- **Language:** Python
+- **Libraries:** OpenCV (`cv2`), NumPy
+- **Environment:** Google Colab
